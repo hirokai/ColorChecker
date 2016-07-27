@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E3AE5841D48DEDA00559BDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3AE5831D48DEDA00559BDF /* AppDelegate.swift */; };
+		2E3AE5861D48DEDA00559BDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3AE5851D48DEDA00559BDF /* ViewController.swift */; };
+		2E3AE5891D48DEDA00559BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3AE5871D48DEDA00559BDF /* Main.storyboard */; };
+		2E3AE58B1D48DEDA00559BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3AE58A1D48DEDA00559BDF /* Assets.xcassets */; };
+		2E3AE58E1D48DEDA00559BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3AE58C1D48DEDA00559BDF /* LaunchScreen.storyboard */; };
+		2E3AE5991D48DEDA00559BDF /* ColorCheckerSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3AE5981D48DEDA00559BDF /* ColorCheckerSwiftTests.swift */; };
+		2E3AE5A41D48DEDA00559BDF /* ColorCheckerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3AE5A31D48DEDA00559BDF /* ColorCheckerSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E3AE5951D48DEDA00559BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E3AE5781D48DEDA00559BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E3AE57F1D48DEDA00559BDF;
+			remoteInfo = ColorCheckerSwift;
+		};
+		2E3AE5A01D48DEDA00559BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E3AE5781D48DEDA00559BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E3AE57F1D48DEDA00559BDF;
+			remoteInfo = ColorCheckerSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E3AE5801D48DEDA00559BDF /* ColorCheckerSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorCheckerSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3AE5831D48DEDA00559BDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E3AE5851D48DEDA00559BDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E3AE5881D48DEDA00559BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E3AE58A1D48DEDA00559BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E3AE58D1D48DEDA00559BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E3AE58F1D48DEDA00559BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E3AE5941D48DEDA00559BDF /* ColorCheckerSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorCheckerSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3AE5981D48DEDA00559BDF /* ColorCheckerSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCheckerSwiftTests.swift; sourceTree = "<group>"; };
+		2E3AE59A1D48DEDA00559BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E3AE59F1D48DEDA00559BDF /* ColorCheckerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorCheckerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3AE5A31D48DEDA00559BDF /* ColorCheckerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCheckerSwiftUITests.swift; sourceTree = "<group>"; };
+		2E3AE5A51D48DEDA00559BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E3AE57D1D48DEDA00559BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3AE5911D48DEDA00559BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3AE59C1D48DEDA00559BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E3AE5771D48DEDA00559BDF = {
+			isa = PBXGroup;
+			children = (
+				2E3AE5821D48DEDA00559BDF /* ColorCheckerSwift */,
+				2E3AE5971D48DEDA00559BDF /* ColorCheckerSwiftTests */,
+				2E3AE5A21D48DEDA00559BDF /* ColorCheckerSwiftUITests */,
+				2E3AE5811D48DEDA00559BDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E3AE5811D48DEDA00559BDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E3AE5801D48DEDA00559BDF /* ColorCheckerSwift.app */,
+				2E3AE5941D48DEDA00559BDF /* ColorCheckerSwiftTests.xctest */,
+				2E3AE59F1D48DEDA00559BDF /* ColorCheckerSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E3AE5821D48DEDA00559BDF /* ColorCheckerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2E3AE5831D48DEDA00559BDF /* AppDelegate.swift */,
+				2E3AE5851D48DEDA00559BDF /* ViewController.swift */,
+				2E3AE5871D48DEDA00559BDF /* Main.storyboard */,
+				2E3AE58A1D48DEDA00559BDF /* Assets.xcassets */,
+				2E3AE58C1D48DEDA00559BDF /* LaunchScreen.storyboard */,
+				2E3AE58F1D48DEDA00559BDF /* Info.plist */,
+			);
+			path = ColorCheckerSwift;
+			sourceTree = "<group>";
+		};
+		2E3AE5971D48DEDA00559BDF /* ColorCheckerSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E3AE5981D48DEDA00559BDF /* ColorCheckerSwiftTests.swift */,
+				2E3AE59A1D48DEDA00559BDF /* Info.plist */,
+			);
+			path = ColorCheckerSwiftTests;
+			sourceTree = "<group>";
+		};
+		2E3AE5A21D48DEDA00559BDF /* ColorCheckerSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E3AE5A31D48DEDA00559BDF /* ColorCheckerSwiftUITests.swift */,
+				2E3AE5A51D48DEDA00559BDF /* Info.plist */,
+			);
+			path = ColorCheckerSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E3AE57F1D48DEDA00559BDF /* ColorCheckerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3AE5A81D48DEDA00559BDF /* Build configuration list for PBXNativeTarget "ColorCheckerSwift" */;
+			buildPhases = (
+				2E3AE57C1D48DEDA00559BDF /* Sources */,
+				2E3AE57D1D48DEDA00559BDF /* Frameworks */,
+				2E3AE57E1D48DEDA00559BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorCheckerSwift;
+			productName = ColorCheckerSwift;
+			productReference = 2E3AE5801D48DEDA00559BDF /* ColorCheckerSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E3AE5931D48DEDA00559BDF /* ColorCheckerSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3AE5AB1D48DEDA00559BDF /* Build configuration list for PBXNativeTarget "ColorCheckerSwiftTests" */;
+			buildPhases = (
+				2E3AE5901D48DEDA00559BDF /* Sources */,
+				2E3AE5911D48DEDA00559BDF /* Frameworks */,
+				2E3AE5921D48DEDA00559BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E3AE5961D48DEDA00559BDF /* PBXTargetDependency */,
+			);
+			name = ColorCheckerSwiftTests;
+			productName = ColorCheckerSwiftTests;
+			productReference = 2E3AE5941D48DEDA00559BDF /* ColorCheckerSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E3AE59E1D48DEDA00559BDF /* ColorCheckerSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3AE5AE1D48DEDA00559BDF /* Build configuration list for PBXNativeTarget "ColorCheckerSwiftUITests" */;
+			buildPhases = (
+				2E3AE59B1D48DEDA00559BDF /* Sources */,
+				2E3AE59C1D48DEDA00559BDF /* Frameworks */,
+				2E3AE59D1D48DEDA00559BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E3AE5A11D48DEDA00559BDF /* PBXTargetDependency */,
+			);
+			name = ColorCheckerSwiftUITests;
+			productName = ColorCheckerSwiftUITests;
+			productReference = 2E3AE59F1D48DEDA00559BDF /* ColorCheckerSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E3AE5781D48DEDA00559BDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hiroyuki Kai";
+				TargetAttributes = {
+					2E3AE57F1D48DEDA00559BDF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2E3AE5931D48DEDA00559BDF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2E3AE57F1D48DEDA00559BDF;
+					};
+					2E3AE59E1D48DEDA00559BDF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2E3AE57F1D48DEDA00559BDF;
+					};
+				};
+			};
+			buildConfigurationList = 2E3AE57B1D48DEDA00559BDF /* Build configuration list for PBXProject "ColorCheckerSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E3AE5771D48DEDA00559BDF;
+			productRefGroup = 2E3AE5811D48DEDA00559BDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E3AE57F1D48DEDA00559BDF /* ColorCheckerSwift */,
+				2E3AE5931D48DEDA00559BDF /* ColorCheckerSwiftTests */,
+				2E3AE59E1D48DEDA00559BDF /* ColorCheckerSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E3AE57E1D48DEDA00559BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3AE58E1D48DEDA00559BDF /* LaunchScreen.storyboard in Resources */,
+				2E3AE58B1D48DEDA00559BDF /* Assets.xcassets in Resources */,
+				2E3AE5891D48DEDA00559BDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3AE5921D48DEDA00559BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3AE59D1D48DEDA00559BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E3AE57C1D48DEDA00559BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3AE5861D48DEDA00559BDF /* ViewController.swift in Sources */,
+				2E3AE5841D48DEDA00559BDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3AE5901D48DEDA00559BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3AE5991D48DEDA00559BDF /* ColorCheckerSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E3AE59B1D48DEDA00559BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3AE5A41D48DEDA00559BDF /* ColorCheckerSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E3AE5961D48DEDA00559BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E3AE57F1D48DEDA00559BDF /* ColorCheckerSwift */;
+			targetProxy = 2E3AE5951D48DEDA00559BDF /* PBXContainerItemProxy */;
+		};
+		2E3AE5A11D48DEDA00559BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E3AE57F1D48DEDA00559BDF /* ColorCheckerSwift */;
+			targetProxy = 2E3AE5A01D48DEDA00559BDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E3AE5871D48DEDA00559BDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3AE5881D48DEDA00559BDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E3AE58C1D48DEDA00559BDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3AE58D1D48DEDA00559BDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E3AE5A61D48DEDA00559BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E3AE5A71D48DEDA00559BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E3AE5A91D48DEDA00559BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorCheckerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tohoku-University.ColorCheckerSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E3AE5AA1D48DEDA00559BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorCheckerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tohoku-University.ColorCheckerSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E3AE5AC1D48DEDA00559BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColorCheckerSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tohoku-University.ColorCheckerSwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorCheckerSwift.app/ColorCheckerSwift";
+			};
+			name = Debug;
+		};
+		2E3AE5AD1D48DEDA00559BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColorCheckerSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tohoku-University.ColorCheckerSwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorCheckerSwift.app/ColorCheckerSwift";
+			};
+			name = Release;
+		};
+		2E3AE5AF1D48DEDA00559BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColorCheckerSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tohoku-University.ColorCheckerSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColorCheckerSwift;
+			};
+			name = Debug;
+		};
+		2E3AE5B01D48DEDA00559BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColorCheckerSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tohoku-University.ColorCheckerSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColorCheckerSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E3AE57B1D48DEDA00559BDF /* Build configuration list for PBXProject "ColorCheckerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3AE5A61D48DEDA00559BDF /* Debug */,
+				2E3AE5A71D48DEDA00559BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3AE5A81D48DEDA00559BDF /* Build configuration list for PBXNativeTarget "ColorCheckerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3AE5A91D48DEDA00559BDF /* Debug */,
+				2E3AE5AA1D48DEDA00559BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E3AE5AB1D48DEDA00559BDF /* Build configuration list for PBXNativeTarget "ColorCheckerSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3AE5AC1D48DEDA00559BDF /* Debug */,
+				2E3AE5AD1D48DEDA00559BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E3AE5AE1D48DEDA00559BDF /* Build configuration list for PBXNativeTarget "ColorCheckerSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3AE5AF1D48DEDA00559BDF /* Debug */,
+				2E3AE5B01D48DEDA00559BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E3AE5781D48DEDA00559BDF /* Project object */;
+}
