@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					2E3AE57F1D48DEDA00559BDF = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = L6VU8VY7JH;
 					};
 					2E3AE5931D48DEDA00559BDF = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -401,10 +402,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ColorCheckerSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Tohoku-University.ColorCheckerSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +416,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ColorCheckerSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Tohoku-University.ColorCheckerSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +491,7 @@
 				2E3AE5AA1D48DEDA00559BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E3AE5AB1D48DEDA00559BDF /* Build configuration list for PBXNativeTarget "ColorCheckerSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +500,7 @@
 				2E3AE5AD1D48DEDA00559BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E3AE5AE1D48DEDA00559BDF /* Build configuration list for PBXNativeTarget "ColorCheckerSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +509,7 @@
 				2E3AE5B01D48DEDA00559BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
