@@ -17,11 +17,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FbF-7T-lhg">
+                                <rect key="frame" x="137" y="490" width="100" height="100"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dJ8-1d-bts">
                                 <rect key="frame" x="0.0" y="20" width="375" height="500"/>
                             </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7xy-LJ-IFa">
+                                <rect key="frame" x="0.0" y="20" width="375" height="500"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCt-Un-yO4">
-                                <rect key="frame" x="0.0" y="607" width="375" height="60"/>
+                                <rect key="frame" x="0.0" y="559" width="375" height="108"/>
                                 <color key="backgroundColor" red="0.53751352796420648" green="0.62590343703498552" blue="1" alpha="0.099477569018404904" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Start">
@@ -35,15 +41,16 @@
                                 <rect key="frame" x="0.0" y="518" width="375" height="38"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FbF-7T-lhg">
-                                <rect key="frame" x="137" y="490" width="100" height="100"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1H-h3-VBR">
                                 <rect key="frame" x="105" y="559" width="165" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L0u-jY-EQf" customClass="InfoView" customModule="ColorCheckerSwift" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="375" height="90"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -51,14 +58,33 @@
                     <connections>
                         <outlet property="button" destination="YCt-Un-yO4" id="wJb-Lr-J9p"/>
                         <outlet property="colorView" destination="qoY-u4-3c2" id="g0K-9F-CEu"/>
+                        <outlet property="infoView" destination="L0u-jY-EQf" id="LQr-Cb-qGd"/>
                         <outlet property="smallView" destination="dJ8-1d-bts" id="cka-Fi-e8J"/>
                         <outlet property="textField" destination="u1H-h3-VBR" id="CTt-f8-uUQ"/>
                         <outlet property="view2" destination="FbF-7T-lhg" id="6VQ-CE-XXc"/>
+                        <outlet property="viewForScreenshot" destination="7xy-LJ-IFa" id="ZSE-e7-rvX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="586.5" y="438.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Vuj-ns-TAr">
+            <objects>
+                <viewController id="WLK-Rj-YDQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SEv-Hb-XIZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="nRK-cd-Z31"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6mU-OS-WFz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="adD-fW-TJn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
 </document>
